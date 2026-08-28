@@ -1,0 +1,41 @@
+device_id,device_name,department,total_drawers,location_code
+DEV-001,ICU-Station-1,ICU,7,ICU-01
+DEV-002,ICU-Station-2,ICU,7,ICU-02
+DEV-003,ICU-Station-3,ICU,7,ICU-03
+DEV-004,ICU-Station-4,ICU,7,ICU-04
+DEV-005,ICU_SURG-A,Surgical ICU,7,SICU-01
+DEV-006,ICU_SURG-B,Surgical ICU,7,
+DEV-007,ICU_SURG-C,Surgical ICU,7,SICU-03
+DEV-008,NICU_A-Station-1,NICU-A,7,NICU-A-01
+DEV-009,NICU_A-Station-2,NICU-A,7,NICU-A-02
+DEV-010,NICU_B-Station-1,NICU-B,7,NICU-B-01
+DEV-011,NICU_B-Station-2,NICU-B,7,NICU-B-02
+DEV-012,ER1-Station-1,Emergency Room 1,7,ER1-01
+DEV-013,ER1-Station-2,Emergency Room 1,7,ER1-02
+DEV-014,ER1-Station-3,Emergency Room 1,7,ER1-03
+DEV-015,ER2-Station-1,Emergency Room 2,7,ER2-01
+DEV-016,ER2-Station-2,Emergency Room 2,7,
+DEV-017,ER2-Station-3,Emergency Room 2,7,ER2-03
+DEV-018,PACU-Station-1,PACU,7,PACU-01
+DEV-019,PACU-Station-2,PACU,7,PACU-02
+DEV-020,PACU-Station-3,PACU,7,PACU-03
+DEV-021,PHR_A-Main,Pharmacy A,7,PHR-A-01
+DEV-022,PHR_A-Backup,Pharmacy A,7,PHR-A-02
+DEV-023,PHR_B-Main,Pharmacy B,7,PHR-B-01
+DEV-024,MEDSURG-1A,Med/Surg Ward,7,MS-01
+DEV-025,MEDSURG-1B,MedSurg,7,MS-02
+DEV-026,MEDSURG-2A,Med/Surg Ward,7,MS-03
+DEV-027,MEDSURG-2B,Med/Surg Ward,7,MS-04
+DEV-028,ONCO-Station-1,Oncology,7,ONCO-01
+DEV-029,ONCO-Station-2,Oncology,7,
+DEV-030,CARD-Station-1,Cardiology,7,CARD-01
+DEV-031,CARD-Station-2,Cardiology,7,CARD-02
+DEV-032,OR-Station-1,Operating Room,7,OR-01
+DEV-033,OR-Station-2,OR,7,OR-02
+DEV-034,OR-Station-3,Operating Room,7,OR-03
+DEV-035,LD-Station-1,Labor & Delivery,7,LD-01
+DEV-036,LD-Station-2,Labor & Delivery,7,LD-02
+DEV-037,PEDS-Station-1,Pediatrics,7,PEDS-01
+DEV-038,PEDS-Station-2,Pediatrics,7,PEDS-02
+DEV-039,TELE-Station-1,Telemetry,7,TELE-01
+DEV-040,TELE-Station-1,Telemetry,7,TELE-02
