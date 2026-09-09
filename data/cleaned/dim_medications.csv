@@ -1,0 +1,51 @@
+,medication_id,medication_name,medication_class,medication_category,is_controlled,requires_witness
+0,MED-001,Morphine 2 Mg/Ml,0.0,Iv,True,True
+1,MED-002,Morphine 4Mg/Ml,0.0,Iv,True,True
+2,MED-003,Fentanyl 50Mcg/Ml,0.0,Iv,True,True
+3,MED-004,Oxycodone 5Mg,0.0,Tablet,True,True
+4,MED-005,Hydromorphone 2Mg,0.0,Iv,True,True
+5,MED-006,Methadone 10Mg,0.0,Tablet,True,True
+6,MED-007,Oxycodone 10Mg,0.0,Tablet,True,True
+7,MED-008,Meperidine 50Mg/Ml,0.0,Iv,True,True
+8,MED-009,Hydrocodone 5Mg,1.0,Tablet,True,True
+9,MED-010,Codeine 30Mg,1.0,Tablet,True,True
+10,MED-011,Ketamine 500Mg/10Ml,1.0,Vial,True,True
+11,MED-012,Buprenorphine 8Mg,1.0,Tablet,True,True
+12,MED-013,Testosterone 200Mg/Ml,1.0,Vial,True,True
+13,MED-014,Lorazepam 2Mg/Ml,2.0,Iv,True,True
+14,MED-015,Midazolam5Mg/Ml,2.0,Iv,True,True
+15,MED-016,Diazepam 5Mg,2.0,Tablet,True,True
+16,MED-017,Alprazolam 0.5Mg,2.0,Tablet,True,True
+17,MED-018,Zolpidem 10Mg,2.0,Tablet,True,True
+18,MED-019,Tramadol 50Mg,2.0,Tablet,True,True
+19,MED-020,Phenobarbital 30Mg,2.0,Tablet,True,True
+20,MED-021,Acetaminophen 500Mg,3.0,Tablet,False,False
+21,MED-022,Acetaminophen 1000Mg Iv,3.0,Iv,False,False
+22,MED-023,Ibuprofen 400Mg,3.0,Tablet,False,False
+23,MED-024,Ondansetron 4Mg,3.0,Iv,False,False
+24,MED-025,Metoprolol 25Mg,3.0,Tablet,False,False
+25,MED-026,Amoxicillin 500Mg,3.0,Capsule,False,False
+26,MED-027,Azithromycin 250Mg,3.0,Tablet,False,False
+27,MED-028,Pantoprazole 40Mg,3.0,Iv,False,False
+28,MED-029,Heparin 5000 Units/Ml,3.0,Vial,False,False
+29,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,False
+30,MED-031,Lactated Ringers 1L,4.0,Bag,False,False
+31,MED-032,D5W 250Ml,4.0,Bag,False,False
+32,MED-033,Potassium Chloride 20Meq,4.0,Iv,False,False
+33,MED-034,Magnesium Sulfate 2G/50Ml,4.0,Bag,False,False
+34,MED-035,Vancomycin 1G,4.0,Iv,False,False
+35,MED-036,Piperacillin-Tazobactam 3.375G,4.0,Iv,False,False
+36,MED-037,Insulin Regular 100 Units/Ml,4.0,Vial,False,False
+37,MED-038,Norepinephrine 4Mg/250Ml,4.0,Bag,False,False
+38,MED-039,Cefazolin 1G,4.0,Iv,False,False
+39,MED-040,Aspirin 81Mg,5.0,Tablet,False,False
+40,MED-041,Atorvastatin 40Mg,5.0,Tablet,False,False
+41,MED-042,Omeprazole 20Mg,5.0,Capsule,False,False
+42,MED-043,Metformin 500Mg,3.0,Tablet,False,False
+43,MED-044,Amlodipine 5Mg,5.0,Tablet,False,False
+44,MED-045,Furosemide 40Mg,5.0,Tablet,False,False
+45,MED-046,Warfarin 5Mg,5.0,Tablet,False,False
+46,MED-047,Prednisone 10Mg,5.0,Tablet,False,False
+47,MED-048,Doxycycline 100Mg,5.0,Capsule,False,False
+48,MED-049,Multivitamin,4.0,Tablet,False,False
+49,MED-050,Lisinopril 10Mg,3.0,Tablet,False,False

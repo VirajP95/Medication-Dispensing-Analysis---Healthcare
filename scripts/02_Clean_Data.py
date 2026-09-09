@@ -56,6 +56,14 @@ unknown_users
 
 
 
+df_transactions_clean[df_transactions_clean['order_number'].isnull()]
+
+df_transactions_clean.isnull().sum()
+
+df_transactions_clean.shape
+
+
+
 # ==================================Clean Medications dataframe====================
 
 df_medications_clean.tail()
@@ -80,6 +88,8 @@ df_medications_clean['medication_category'] = df_medications_clean['medication_c
 df_medications_clean['medication_name'] = df_medications_clean['medication_name'].str.replace('  ','').str.strip()
 
 df_medications_clean['medication_name'] = df_medications_clean['medication_name'].str.title()
+
+df_medications_clean.isnull().sum()
 
 
 # ==================================Clean Users dataframe======================
@@ -138,12 +148,14 @@ df_users_clean[df_users_clean['user_name'].duplicated(keep=False)]
 #Dropping duplicate users except first occurence
 df_users_clean= df_users_clean.drop_duplicates(subset='user_name',keep='first')
 
+df_users_clean.isnull().sum()
+
 
 # ==================================Clean Patients dataframe======================
 
-df_patients_clean1.isnull().sum()
-
 df_patients_clean1.tail()
+
+df_patients_clean1 = df_patients.copy()
 
 df_patients_clean1['visit_status'] = df_patients_clean1['visit_status'].str.strip()
 
@@ -169,6 +181,7 @@ df_patients_clean1['visit_date'] = pd.to_datetime(df_patients_clean1['visit_date
 df_patients_clean1['visit_date'].astype
 
 missing_patients_age = df_patients_clean1[df_patients_clean1['age'].isnull()]
+missing_patients_age
 
 missing_patients_gender = df_patients_clean1[df_patients_clean1['gender'].isnull()]
 
@@ -181,6 +194,9 @@ gender_map = {
 
 df_patients_clean1['gender'] = df_patients_clean1['gender'].replace(gender_map)
 df_patients_clean1['gender'].value_counts()
+
+df_patients_clean1.isnull().sum()
+
 
 # ==================================Clean Inventory dataframe======================
 
@@ -210,6 +226,22 @@ df_inventory_clean['needs_restock'] = (
 # Verify
 print(f"Rows: {len(df_inventory_clean)}")
 print(df_inventory_clean['needs_restock'].value_counts())
+
+# Exporting  all clean dataframes into cleaned data folder
+
+df_transactions_cleaned = df_transactions_clean.to_csv('../data/cleaned/fact_transactions.csv')
+
+df_medications_cleaned = df_medications_clean.to_csv('../data/cleaned/dim_medications.csv')
+
+df_users_cleaned = df_users_clean.to_csv('../data/cleaned/dim_users.csv')
+
+df_patients_cleaned = df_patients_clean1.to_csv('../data/cleaned/dim_patients.csv')
+
+df_inventory_cleaned = df_inventory_clean.to_csv('../data/cleaned/dim_inventory.csv')
+
+df_devices_cleaned = df_devices_clean.to_csv('../data/cleaned/dim_users.csv')
+
+
 
 
 
