@@ -81,8 +81,7 @@ df_medications.tail()
 
 df_medications.isnull().sum()
 
-#------ Checking unique values for is_controlled and require_witness fields
-
+#Checking unique values for is_controlled and require_witness fields
 df_medications.groupby(['is_controlled','requires_witness']).size()  
 
 df_medications['medication_class'].value_counts()
@@ -90,8 +89,7 @@ df_medications['medication_class'].value_counts()
 df_medications['medication_category'].unique()
 
 
-#---------------Spacing check
-
+#Spacing check
 leading_trailing_space = df_medications[df_medications['medication_name' ] != df_medications['medication_name'].str.strip()]
 print(leading_trailing_space)
 
@@ -133,7 +131,6 @@ df_patients["patient_type"].value_counts()
 df_patients["visit_status"].value_counts()
 
 print("======VISIT DATE EDA=========")
-
 converted = pd.to_datetime(df_patients['visit_date'], errors='coerce')
 
 #Type
@@ -176,7 +173,6 @@ inventory_quantity_check = df_inventory[df_inventory['current_quantity'] < 0]
 print(f'negative stock quantity: {len(inventory_quantity_check)}')
 
 #Overstocked Items
-
 overstocked_items = df_inventory[df_inventory['current_quantity'] > df_inventory['par_level']]
 print(f'Overstocked items: {len(overstocked_items)}')
 
@@ -185,6 +181,10 @@ print(f'missing_par_values: {len(missing_par_values)}')
 
 Duplicated = df_inventory.duplicated(subset=['device_id','drawer_number','medication_id']).sum()
 Duplicated
+
+
+
+
 
 
 
