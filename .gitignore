@@ -1,3 +1,6 @@
 #Project files
 *.xlsx
 *.url
+
+# Ignore all pdf files in the project
+*.pdf
