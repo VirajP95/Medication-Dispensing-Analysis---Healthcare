@@ -1,10 +1,10 @@
 user_id,user_name,user_role,areas_assigned
 USR-001,J.Smith,Rn,Emergency Room 1
 USR-002,M.Johnson,Rn,"NICU-B, Oncology, Cardiology"
-USR-003,.Williams,Rn,"NICU-A, Med/Surg Ward, PACU"
+USR-003,D.Williams,Rn,"NICU-A, Med/Surg Ward, PACU"
 USR-004,A.Brown,R.N,ICU
 USR-005,K.Davis,Rn,PACU
-USR-006,M.L,Rn,ICU
+USR-006,M.Lopez,Rn,ICU
 USR-007,R.Wilson,Rn,"PACU, Cardiology, Oncology"
 USR-008,C.Moore,Rn,"Labor & Delivery, NICU-B, Pharmacy A"
 USR-009,T.Taylor,Rn,"Pharmacy B, Operating Room, Labor & Delivery"

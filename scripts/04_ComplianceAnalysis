@@ -1,0 +1,129 @@
+import pandas as pd
+
+df_transactions = pd.read_csv('../data/cleaned/fact_transactions.csv')
+
+df_medications = pd.read_csv('../data/cleaned/dim_medications.csv')
+
+df_devices = pd.read_csv('../data/cleaned/dim_devices.csv')
+
+df_users = pd.read_csv('../data/cleaned/dim_users.csv')
+
+df_transactions.tail()
+df_medications.tail()
+df_devices.tail()
+df_users.tail()
+
+df_transactions['transaction_datetime'] = pd.to_datetime(df_transactions['transaction_datetime'])
+
+df_transactions['transaction_month'] = df_transactions['transaction_datetime'].dt.month
+
+df_transactions['transaction_hours'] = df_transactions['transaction_datetime'].dt.hour
+
+# Merging Tx table with medication table
+
+transaction_medication = df_transactions.merge(df_medications[['medication_id', 'medication_name', 'medication_class','medication_category','is_controlled']], on ='medication_id', how='left')
+
+# Merging Tx table with device table
+
+full_transactions = transaction_medication.merge(df_devices[['device_id','device_name','department',]], on='device_id', how='left')
+
+# Merging Tx table with users table
+
+full_transactions = full_transactions.merge(df_users[['user_id','user_name','user_role']], on='user_id', how='left')
+
+full_transactions.tail()
+
+#====================================Override Analysis==================================
+
+#Total Override transactions per department
+override_Tx_by_dept = full_transactions[full_transactions['transaction_type'] == 'Override'].groupby('department')['transaction_id'].count().sort_values(ascending=False)
+print(f'Total Override transactions by department: {override_Tx_by_dept}')
+
+#Users with highest Override transactions
+top_users_by_override =  full_transactions[full_transactions['transaction_type'] == 'Override'].groupby('user_name')['transaction_id'].count().nlargest(10)
+print(f'Users with highest Override transactions: {top_users_by_override}')
+
+#Override rate per user
+
+total_tx_per_user = full_transactions.groupby('user_name')['transaction_id'].count()
+
+override_tx = full_transactions[full_transactions['transaction_type'] == 'Override']
+override_tx_per_user = override_tx.groupby('user_name')['transaction_id'].count()
+override_pct = (override_tx_per_user/total_tx_per_user * 100).sort_values(ascending=False).round(1)
+override_pct
+
+#Devices with most override transactions
+
+override_device_Tx = full_transactions[full_transactions['transaction_type'] == 'Override'].groupby('device_name')['transaction_id'].count().nlargest(10)
+override_device_Tx
+
+#Most overidden medications frequently
+
+overriden_meds = full_transactions[full_transactions['transaction_type'] == 'Override'].groupby('medication_name')['transaction_id'].count().nlargest(10)
+print(f'Most overidden meds are: {overriden_meds}')
+
+# Peak Override hours
+override_hours = override_tx.groupby('transaction_hours')['transaction_id'].count().nlargest(10)
+override_hours
+
+# Override comparison for controlled vs non controlled
+
+override_compare = override_tx.groupby('is_controlled')['transaction_id'].count()
+override_compare
+
+#===============================Discrepancy analysis=========================
+
+#Total discrepancy count
+total_discrepancy_cnt = full_transactions.groupby('discrepancy_flag')['transaction_id'].count()
+total_discrepancy_cnt
+
+#Rate of discrepancies for controlled meds
+
+controlled_discrepancies = full_transactions[full_transactions['is_controlled'] == 1]
+controlled_discrepancies_pct = controlled_discrepancies['discrepancy_flag'].mean() * 100
+print(f'The rate of discrepancies for controlled meds is: {controlled_discrepancies_pct:2f}%')
+
+#Device with highest discrepancy cnt
+
+device_discrepancy_cnt = full_transactions[full_transactions['discrepancy_flag'] == 1].groupby('device_name')['transaction_id'].count().nlargest(10)
+device_discrepancy_cnt 
+
+#Medication class with most discrepancies
+
+med_class_discrepanies = full_transactions[full_transactions['discrepancy_flag'] == 1].groupby('medication_class')['transaction_id'].count().sort_values(ascending=False)
+med_class_discrepanies
+
+
+#Montly discrepancy trend
+
+monthly_discrepancy = full_transactions[full_transactions['discrepancy_flag'] == 1].copy()
+
+monthly_discrepancy["month"] = pd.to_datetime(monthly_discrepancy['transaction_datetime']).dt.month
+monthly_discrepancy.groupby('month')['transaction_id'].count().nlargest(12)
+
+
+
+#======================== Witness Analysis================================
+
+# % of controlled med Return/Waste transactions have a witness?
+
+witness_Tx = full_transactions[full_transactions['transaction_type'].isin(['Return','Waste']) &
+                               full_transactions['is_controlled'] == True]
+
+witness_rate = witness_Tx['witness_name'].notna().mean() * 100
+print(f'Witness Compliance: {witness_rate:1f}%')
+
+# users with most frequent witness
+
+witness_users = full_transactions[full_transactions['witness_name'].notna()].groupby('witness_name')['transaction_id'].count().nlargest(10)
+witness_users
+
+# Return/waste controlled transactions without a witness
+
+no_witness = full_transactions[full_transactions['transaction_type'].isin(['Return','Waste']) &
+                               full_transactions['is_controlled'] == True &
+                               full_transactions['witness_name'].isna()] 
+
+print(f'Transactions with no witness: {len(no_witness)}')
+print(no_witness[['transaction_id','transaction_type','medication_name','user_name','witness_name']])
+

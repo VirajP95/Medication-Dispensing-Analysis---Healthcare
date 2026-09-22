@@ -140,6 +140,13 @@ def standardize_name(user_name):
     
     return user_name  # return as-is if no pattern matches
 
+df_users_clean[df_users_clean['user_name'].isin(['.Williams', 'M.L'])]
+
+df_users_clean['user_name'] = df_users_clean['user_name'].replace({
+    '.Williams': 'D.Williams',
+    'M.L': 'M.Lopez'
+})
+
 # Applying above function to user_role
 df_users_clean['user_name'] = df_users_clean['user_name'].apply(standardize_name)
 df_users_clean['user_name'].unique()
@@ -151,6 +158,8 @@ df_users_clean[df_users_clean['user_name'].duplicated(keep=False)]
 df_users_clean= df_users_clean.drop_duplicates(subset='user_name',keep='first')
 
 df_users_clean.isnull().sum()
+
+df_users_clean[df_users_clean[]]
 
 
 # ==================================Clean Patients dataframe======================
