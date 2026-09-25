@@ -8,10 +8,15 @@ df_devices = pd.read_csv('../data/cleaned/dim_devices.csv')
 
 df_users = pd.read_csv('../data/cleaned/dim_users.csv')
 
+df_inventory = pd.read_csv('../data/cleaned/dim_inventory.csv')
+
+df_patients = pd.read_csv('../data/cleaned/dim_patients.csv')
+
 df_transactions.tail()
 df_medications.tail()
 df_devices.tail()
 df_users.tail()
+df_inventory.tail()
 
 df_transactions['transaction_datetime'] = pd.to_datetime(df_transactions['transaction_datetime'])
 
@@ -61,4 +66,49 @@ device_drawer_access = full_transactions.groupby('drawer_number')['transaction_i
 print(f'Drawers that are accessed most across all devices are {device_drawer_access}')
 
 # ======================================== Inventory Analysis =====================================
+
+df_inventory.tail()
+
+# Meds that need refill now
+
+needs_refill= df_inventory[df_inventory['needs_restock'] == 1]
+meds_restock = needs_refill.groupby('medication_name')['inventory_id'].count().sort_values(ascending=False)
+print(f'Count of meds that need restock: {len(needs_refill)}')
+print(f'Unqiue Medications that need restock: {needs_refill['medication_name'].nunique()}')
+print(f'\nMedications that need restock across most device locations:')
+print(meds_restock.head(10))
+
+# Devices that are currently understocked
+
+device_stock = df_inventory[df_inventory['needs_restock'] == 1].groupby('device_name')['inventory_id'].count().nlargest(10)
+
+print(f'Total devices with understocked items: {df_inventory[df_inventory['needs_restock'] == 1]['device_name'].nunique()}')
+print('\nTop 10 most understocked devices Devices with understocked items:')
+print(device_stock)
+
+
+# Medications that are overstocked across devices
+
+overstocked= df_inventory[df_inventory['current_quantity'] > df_inventory['par_level']]
+
+meds_overstock = overstocked.groupby(['medication_name','device_name'])['inventory_id'].count().nlargest(10)
+print(meds_overstock)
+
+#Stock level - controlled vs non-controlled 
+
+stock_level = df_inventory.groupby('is_controlled')['current_quantity'].sum()
+print(stock_level)
+
+# Department with lowest average stock level
+
+dept_stock = df_inventory.groupby('department')['current_quantity'].mean().round(2).nsmallest(10)
+dept_stock
+
+
+
+
+
+
+
+
 

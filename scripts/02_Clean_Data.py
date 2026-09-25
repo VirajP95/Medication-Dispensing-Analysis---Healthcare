@@ -159,9 +159,6 @@ df_users_clean= df_users_clean.drop_duplicates(subset='user_name',keep='first')
 
 df_users_clean.isnull().sum()
 
-df_users_clean[df_users_clean[]]
-
-
 # ==================================Clean Patients dataframe======================
 
 df_patients_clean1.tail()
