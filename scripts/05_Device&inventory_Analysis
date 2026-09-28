@@ -106,31 +106,6 @@ dept_stock
 
 
 
-# Fixing all boolean fields to INT so it can be imported into SQL
-
-# Fix dim_medications
-df = pd.read_csv('../data/cleaned/dim_medications.csv')
-df['is_controlled'] = df['is_controlled'].astype(int)
-df['requires_witness'] = df['requires_witness'].astype(int)
-df.to_csv(r'C:\healthcare project cleaned data\cleaned\dim_medications.csv',
-          index=False, lineterminator='\r\n')
-print(f"dim_medications: {len(df)} rows saved")
-
-# Fix fact_transactions (check for any boolean columns)
-df = pd.read_csv('../data/cleaned/fact_transactions.csv')
-df.to_csv(r'C:\healthcare project cleaned data\cleaned\fact_transactions.csv',
-          index=False, lineterminator='\r\n')
-print(f"fact_transactions: {len(df)} rows saved")
-
-# Fix dim_inventory
-df = pd.read_csv('../data/cleaned/dim_inventory.csv')
-df['is_controlled'] = df['is_controlled'].astype(int)
-df.to_csv(r'C:\healthcare project cleaned data\cleaned\dim_inventory.csv',
-          index=False, lineterminator='\r\n')
-print(f"dim_inventory: {len(df)} rows saved")
-
-print("\nAll boolean columns converted to 0/1 ✓")
-
 
 
 
