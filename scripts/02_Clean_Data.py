@@ -249,6 +249,8 @@ df_inventory_cleaned = df_inventory_clean.to_csv('../data/cleaned/dim_inventory.
 
 df_devices_cleaned = df_devices_clean.to_csv('../data/cleaned/dim_devices.csv', index= False)
 
+df_transactions['transaction_datetime'].astype
+
 
 
 
