@@ -47,5 +47,5 @@ full_transactions['transaction_hours'] = full_transactions['transaction_datetime
 
 full_transactions.tail()
 
-full_transactions.to_csv('../data/Engineered/full_transactions.csv')
+full_transactions.to_csv('../data/Engineered/full_transactions.csv', index=False)
 

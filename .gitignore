@@ -6,5 +6,3 @@
 *.pdf
 
 
-# Ignore entire folder
-MSSQL/
