@@ -251,6 +251,15 @@ df_devices_cleaned = df_devices_clean.to_csv('../data/cleaned/dim_devices.csv', 
 
 df_transactions['transaction_datetime'].astype
 
+df_devices_clean.tail()
+
+df_inventory.tail()
+
+df_inventory_clean['device_id'] = df_inventory_clean['device_id'].str.strip().str.upper()
+df_devices_clean['device_id'] = df_devices_clean['device_id'].str.strip().str.upper()
+
+
+
 
 
 

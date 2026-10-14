@@ -6,6 +6,10 @@ import seaborn as sns
 
 full_transactions = pd.read_csv("../data/Engineered/full_transactions.csv", )
 
+df_inventory_clean = pd.read_csv("../data/cleaned/dim_inventory.csv")
+
+df_devices_clean = pd.read_csv("../data/cleaned/dim_devices.csv")
+
 full_transactions.tail()
 
 # ==============================Transaction Charts=========================
@@ -91,8 +95,17 @@ control_cnts.index = ['Non-Controlled','Controlled']
 control_cnts.plot.pie(autopct='%1.1f%%')
 plt.show()
 
-# 
+# Bar Chart: Departments with most restocking
 
+restock = df_inventory_clean[df_inventory_clean['needs_restock'] == 1]
 
+restock_dept = restock.merge(df_devices_clean[['device_id']], on="device_id")
 
+restock_dept.groupby('department')['inventory_id'].count().sort_values().plot.barh()
+plt.title("Items needing restock by department")
+plt.show()
+plt.fig
+print
 
+print(restock_dept.shape)
+print(restock_dept.columns.to_list())
