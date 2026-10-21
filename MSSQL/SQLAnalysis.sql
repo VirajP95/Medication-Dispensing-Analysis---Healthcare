@@ -81,7 +81,7 @@ WITH override_stats AS (
 SELECT	TOP 10
 		user_name,
 		user_role,
-		CONCAT(ROUND(override_tx * 100/ total_tx, 1), '%') as override_percentage
+		CONCAT(ROUND(override_tx * 100.0/ total_tx, 1), '%') as override_percentage
 FROM override_stats
 ORDER BY override_percentage DESC
 
