@@ -3,6 +3,7 @@ Healthcare Medication Dispensing Analysis
 An end-to-end data analysis project simulating real-world Pyxis medication dispensing system data across a hospital environment. The project covers data cleaning, exploratory analysis, SQL querying, and Power BI reporting — built as a portfolio project for a healthcare data analyst role.
 
 Project Overview
+
 Item	Detail
 Dataset	Mock Pyxis dispensing data — 6 tables, ~3,000+ rows
 Tools	Python (pandas, matplotlib, seaborn), MSSQL, Power BI
