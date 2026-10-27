@@ -19,7 +19,6 @@ df_users.tail()
 df_inventory.tail()
 df_patients.tail()
 
-
 # Merging Tx table with medication table
 
 transaction_medication = df_transactions.merge(df_medications[['medication_id', 'medication_name', 'medication_class','medication_category','is_controlled']], on ='medication_id', how='left')
@@ -44,8 +43,8 @@ full_transactions['transaction_month'] = full_transactions['transaction_datetime
 
 full_transactions['transaction_hours'] = full_transactions['transaction_datetime'].dt.hour
 
-
-full_transactions.tail()
-
 full_transactions.to_csv('../data/Engineered/full_transactions.csv', index=False)
+
+full_transactions['department'].unique()
+
 

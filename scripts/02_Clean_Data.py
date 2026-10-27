@@ -210,6 +210,8 @@ df_patients_clean1.isnull().sum()
 
 df_inventory_clean = df_inventory.copy()
 
+df_inventory_clean['device_id'] = df_inventory_clean['device_id'].str.strip().str.upper()
+
 # Flag missing medication_class with -1
 df_inventory_clean['medication_class'] = df_inventory_clean['medication_class'].fillna(-1)
 
@@ -235,6 +237,18 @@ df_inventory_clean['needs_restock'] = (
 print(f"Rows: {len(df_inventory_clean)}")
 print(df_inventory_clean['needs_restock'].value_counts())
 
+# ================================== Clean Devices dataframe ======================
+
+df_devices_clean['device_id'] = df_devices_clean['device_id'].str.strip().str.upper()
+
+dept_map = {'Med/Surg Ward': 'MedSurg', 'Operating Room': 'OR'}
+df_devices_clean['department'] = df_devices_clean['department'].replace(dept_map)
+
+# Inventory has its own department column, so it needs the same fix
+df_inventory_clean['device_id'] = df_inventory_clean['device_id'].str.strip().str.upper()
+df_inventory_clean['department'] = df_inventory_clean['department'].replace(dept_map)
+
+
 # Exporting  all clean dataframes into cleaned data folder
 
 df_transactions_clean.to_csv('../data/cleaned/fact_transactions.csv', index=False)
@@ -253,15 +267,11 @@ df_transactions['transaction_datetime'].astype
 
 df_devices_clean.tail()
 
-df_inventory.tail()
-
-df_inventory_clean['device_id'] = df_inventory_clean['device_id'].str.strip().str.upper()
-df_devices_clean['device_id'] = df_devices_clean['device_id'].str.strip().str.upper()
-
 df_devices_clean['department'].unique()
 
-df_devices_clean['department'] = df_devices_clean['department'].replace({'Med/Surg Ward': 'MedSurg',
-                                                                         'Operating Room': 'OR'})
+
+
+
 
 
 

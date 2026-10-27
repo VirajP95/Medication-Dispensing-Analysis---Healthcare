@@ -22,17 +22,17 @@ DEV-020,PACU-Station-3,PACU,7,PACU-03
 DEV-021,PHR_A-Main,Pharmacy A,7,PHR-A-01
 DEV-022,PHR_A-Backup,Pharmacy A,7,PHR-A-02
 DEV-023,PHR_B-Main,Pharmacy B,7,PHR-B-01
-DEV-024,MEDSURG-1A,Med/Surg Ward,7,MS-01
+DEV-024,MEDSURG-1A,MedSurg,7,MS-01
 DEV-025,MEDSURG-1B,MedSurg,7,MS-02
-DEV-026,MEDSURG-2A,Med/Surg Ward,7,MS-03
-DEV-027,MEDSURG-2B,Med/Surg Ward,7,MS-04
+DEV-026,MEDSURG-2A,MedSurg,7,MS-03
+DEV-027,MEDSURG-2B,MedSurg,7,MS-04
 DEV-028,ONCO-Station-1,Oncology,7,ONCO-01
 DEV-029,ONCO-Station-2,Oncology,7,
 DEV-030,CARD-Station-1,Cardiology,7,CARD-01
 DEV-031,CARD-Station-2,Cardiology,7,CARD-02
-DEV-032,OR-Station-1,Operating Room,7,OR-01
+DEV-032,OR-Station-1,OR,7,OR-01
 DEV-033,OR-Station-2,OR,7,OR-02
-DEV-034,OR-Station-3,Operating Room,7,OR-03
+DEV-034,OR-Station-3,OR,7,OR-03
 DEV-035,LD-Station-1,Labor & Delivery,7,LD-01
 DEV-036,LD-Station-2,Labor & Delivery,7,LD-02
 DEV-037,PEDS-Station-1,Pediatrics,7,PEDS-01
