@@ -1,28 +1,29 @@
 user_id,user_name,user_role,areas_assigned
-USR-001,J.Smith,Rn,Emergency Room 1
-USR-002,M.Johnson,Rn,"NICU-B, Oncology, Cardiology"
-USR-003,.Williams,Rn,"NICU-A, Med/Surg Ward, PACU"
+USR-001,J.Smith,rn,Emergency Room 1
+USR-002,M.Johnson,RN,"NICU-B, Oncology, Cardiology"
+USR-003,"WILLIAMS, S",RN,"NICU-A, Med/Surg Ward, PACU"
 USR-004,A.Brown,R.N,ICU
-USR-005,K.Davis,Rn,PACU
-USR-006,M.L,Rn,ICU
-USR-007,R.Wilson,Rn,"PACU, Cardiology, Oncology"
-USR-008,C.Moore,Rn,"Labor & Delivery, NICU-B, Pharmacy A"
-USR-009,T.Taylor,Rn,"Pharmacy B, Operating Room, Labor & Delivery"
-USR-010,P.Anderson,Rn,Emergency Room 2
-USR-011,D.Thomas,Rn,"Labor & Delivery, Emergency Room 2, Emergency Room 1"
-USR-012,B.Jackson,Rn,PACU
-USR-013,H.White,Rn,"NICU-B, Surgical ICU"
-USR-014,E.Harris,Rn,"NICU-B, Emergency Room 2"
-USR-015,G.Martin,Rn,"Pharmacy B, Operating Room"
-USR-016,F.Garcia,Rn,Pediatrics
-USR-017,N.Martinez,Rn,"NICU-B, Pediatrics, PACU"
-USR-018,O.Robinson,Rn,Med/Surg Ward
-USR-019,Q.Clark,Rn,Unassigned
-USR-020,V.Rodriguez,Rn,Unassigned
-USR-021,W.Lewis,Pharmacist,Pharmacy B
+USR-005,K.Davis,RN,PACU
+USR-006,Miller L,RN,ICU
+USR-007,R.Wilson,RN,"PACU, Cardiology, Oncology"
+USR-008,C.Moore,RN,"Labor & Delivery, NICU-B, Pharmacy A"
+USR-009,T.Taylor,RN,"Pharmacy B, Operating Room, Labor & Delivery"
+USR-010,P.Anderson,RN,Emergency Room 2
+USR-011,d.thomas,RN,"Labor & Delivery, Emergency Room 2, Emergency Room 1"
+USR-012,B.Jackson,RN,PACU
+USR-013,H.White,RN,"NICU-B, Surgical ICU"
+USR-014,E.Harris,RN,"NICU-B, Emergency Room 2"
+USR-015,G.Martin,RN,"Pharmacy B, Operating Room"
+USR-016,F. Garcia,RN,Pediatrics
+USR-017,N.Martinez,RN,"NICU-B, Pediatrics, PACU"
+USR-018,O.Robinson,RN,Med/Surg Ward
+USR-019,Q.Clark,RN,
+USR-020,V.Rodriguez,RN,
+USR-021,W.Lewis,pharmacist,Pharmacy B
 USR-022,X.Lee,Pharmacist,Pharmacy A
 USR-023,Y.Walker,Pharmacist,Pharmacy B
 USR-024,Z.Hall,Pharmacist,"Pharmacy B, Pharmacy A"
-USR-025,A.Allen,Anesthesiologist,PACU
+USR-025,A.Allen,Anesthesiologist ,PACU
 USR-026,B.Young,Anesthesiologist,"Operating Room, PACU"
 USR-027,C.Hernandez,Anesthesiologist,"ICU, Operating Room, PACU"
+USR-028,John Smith,rn,Emergency Room 1

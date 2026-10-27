@@ -43,12 +43,12 @@ INV-00041,DEV-002,ICU-Station-2,ICU,Drawer-3,MED-039,Cefazolin 1g,4.0,IV,False,1
 INV-00042,DEV-002,ICU-Station-2,ICU,Drawer-3,MED-008,Meperidine 50mg/mL,0.0,IV,True,6.0,6,0
 INV-00043,DEV-002,ICU-Station-2,ICU,Drawer-4,MED-015,Midazolam  5mg/mL,2.0,IV,True,20.0,13,0
 INV-00044,DEV-002,ICU-Station-2,ICU,Drawer-4,MED-018,Zolpidem 10mg,2.0,Tablet,True,11.0,10,0
-INV-00045,DEV-002,ICU-Station-2,ICU,Drawer-4,MED-014,Lorazepam 2mg/mL,2.0,IV,True,13.0,4,0
+INV-00045,DEV-002,ICU-Station-2,ICU,Drawer-4,MED-014,Lorazepam 2mg/mL,2.0,IV,True,,4,0
 INV-00046,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-035,Vancomycin 1g,4.0,IV,False,18.0,15,0
 INV-00047,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,6.0,0,1
 INV-00048,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-006,Methadone 10mg,0.0,Tablet,True,7.0,1,1
 INV-00049,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-004,Oxycodone 5mg,0.0,tablet,True,14.0,9,0
-INV-00050,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-005,Hydromorphone 2mg,0.0,IV,True,12.5,0,1
+INV-00050,DEV-002,ICU-Station-2,ICU,Drawer-5,MED-005,Hydromorphone 2mg,0.0,IV,True,,0,0
 INV-00051,DEV-002,ICU-Station-2,ICU,Drawer-6,MED-011,Ketamine 500mg/10mL,1.0,vial,True,18.0,13,0
 INV-00052,DEV-002,ICU-Station-2,ICU,Drawer-6,MED-003,fentanyl 50mcg/mL,0.0,IV,True,17.0,17,0
 INV-00053,DEV-002,ICU-Station-2,ICU,Drawer-6,MED-010,Codeine 30mg,1.0,TABLET,True,7.0,0,1
@@ -90,7 +90,7 @@ INV-00088,DEV-004,ICU-Station-4,ICU,Drawer-1,MED-009,Hydrocodone 5mg,1.0,Tablet,
 INV-00089,DEV-004,ICU-Station-4,ICU,Drawer-1,MED-024,Ondansetron 4mg,3.0,IV,False,20.0,0,1
 INV-00090,DEV-004,ICU-Station-4,ICU,Drawer-1,MED-026,Amoxicillin 500mg,3.0,capsule,False,7.0,4,0
 INV-00091,DEV-004,ICU-Station-4,ICU,Drawer-1,MED-002,Morphine 4mg/mL,0.0,IV,True,13.0,1,1
-INV-00092,DEV-004,ICU-Station-4,ICU,Drawer-2,MED-025,Metoprolol 25mg,3.0,Tablet,False,12.0,4,0
+INV-00092,DEV-004,ICU-Station-4,ICU,Drawer-2,MED-025,Metoprolol 25mg,3.0,Tablet,False,,4,0
 INV-00093,DEV-004,ICU-Station-4,ICU,Drawer-2,MED-033,Potassium Chloride 20mEq,4.0,IV,False,19.0,3,1
 INV-00094,DEV-004,ICU-Station-4,ICU,Drawer-2,MED-027,Azithromycin 250mg,3.0,Tablet,False,5.0,5,0
 INV-00095,DEV-004,ICU-Station-4,ICU,Drawer-3,MED-027,Azithromycin 250mg,3.0,Tablet,False,13.0,12,0
@@ -167,11 +167,11 @@ INV-00165,DEV-006,ICU_SURG-B,Surgical ICU,Drawer-7,MED-004,Oxycodone 5mg,0.0,tab
 INV-00166,DEV-006,ICU_SURG-B,Surgical ICU,Drawer-7,MED-001,Morphine 2 mg/mL,0.0,IV,True,9.0,2,1
 INV-00167,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-1,MED-018,Zolpidem 10mg,2.0,Tablet,True,16.0,11,0
 INV-00168,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-1,MED-032,D5W 250mL,4.0,Bag,False,14.0,0,1
-INV-00169,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-1,MED-005,Hydromorphone 2mg,0.0,IV,True,9.0,0,1
+INV-00169,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-1,MED-005,Hydromorphone 2mg,0.0,IV,True,9.0,-2,1
 INV-00170,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-1,MED-033,Potassium Chloride 20mEq,4.0,IV,False,11.0,2,1
 INV-00171,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-2,MED-025,Metoprolol 25mg,3.0,Tablet,False,7.0,4,0
 INV-00172,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-2,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,14.0,7,0
-INV-00173,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-2,MED-035,Vancomycin 1g,4.0,IV,False,12.0,0,1
+INV-00173,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-2,MED-035,Vancomycin 1g,4.0,IV,False,12.0,-3,1
 INV-00174,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-3,MED-019,Tramadol 50mg,2.0,Tablet,True,8.0,1,1
 INV-00175,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-3,MED-023,Ibuprofen 400mg,3.0,Tablet,False,20.0,13,0
 INV-00176,DEV-007,ICU_SURG-C,Surgical ICU,Drawer-3,MED-013,Testosterone 200mg/mL,1.0,Vial,True,18.0,10,0
@@ -206,7 +206,7 @@ INV-00204,DEV-008,NICU_A-Station-1,NICU-A,Drawer-4,MED-032,D5W 250mL,4.0,Bag,Fal
 INV-00205,DEV-008,NICU_A-Station-1,NICU-A,Drawer-4,MED-024,Ondansetron 4mg,3.0,IV,False,18.0,8,0
 INV-00206,DEV-008,NICU_A-Station-1,NICU-A,Drawer-4,MED-026,Amoxicillin 500mg,3.0,capsule,False,14.0,9,0
 INV-00207,DEV-008,NICU_A-Station-1,NICU-A,Drawer-5,MED-018,Zolpidem 10mg,2.0,Tablet,True,16.0,20,0
-INV-00208,DEV-008,NICU_A-Station-1,NICU-A,Drawer-5,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,9.0,0,1
+INV-00208,DEV-008,NICU_A-Station-1,NICU-A,Drawer-5,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,9.0,-2,1
 INV-00209,DEV-008,NICU_A-Station-1,NICU-A,Drawer-5,MED-019,Tramadol 50mg,2.0,Tablet,True,9.0,9,0
 INV-00210,DEV-008,NICU_A-Station-1,NICU-A,Drawer-6,MED-035,Vancomycin 1g,4.0,IV,False,6.0,6,0
 INV-00211,DEV-008,NICU_A-Station-1,NICU-A,Drawer-6,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,9.0,7,0
@@ -226,7 +226,7 @@ INV-00224,DEV-009,NICU_A-Station-2,NICU-A,Drawer-2,MED-015,Midazolam  5mg/mL,2.0
 INV-00225,DEV-009,NICU_A-Station-2,NICU-A,Drawer-2,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,13.0,5,0
 INV-00226,DEV-009,NICU_A-Station-2,NICU-A,Drawer-3,MED-032,D5W 250mL,4.0,Bag,False,17.0,6,0
 INV-00227,DEV-009,NICU_A-Station-2,NICU-A,Drawer-3,MED-026,Amoxicillin 500mg,3.0,capsule,False,12.0,10,0
-INV-00228,DEV-009,NICU_A-Station-2,NICU-A,Drawer-3,MED-029,Heparin 5000 units/mL,3.0,Vial,False,18.0,0,1
+INV-00228,DEV-009,NICU_A-Station-2,NICU-A,Drawer-3,MED-029,Heparin 5000 units/mL,3.0,Vial,False,18.0,-1,1
 INV-00229,DEV-009,NICU_A-Station-2,NICU-A,Drawer-3,MED-001,Morphine 2 mg/mL,0.0,IV,True,9.0,10,0
 INV-00230,DEV-009,NICU_A-Station-2,NICU-A,Drawer-4,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,17.0,8,0
 INV-00231,DEV-009,NICU_A-Station-2,NICU-A,Drawer-4,MED-019,Tramadol 50mg,2.0,Tablet,True,11.0,3,0
@@ -238,7 +238,7 @@ INV-00236,DEV-009,NICU_A-Station-2,NICU-A,Drawer-5,MED-014,Lorazepam 2mg/mL,2.0,
 INV-00237,DEV-009,NICU_A-Station-2,NICU-A,Drawer-5,MED-025,Metoprolol 25mg,3.0,Tablet,False,9.0,0,1
 INV-00238,DEV-009,NICU_A-Station-2,NICU-A,Drawer-5,MED-001,Morphine 2 mg/mL,0.0,IV,True,16.0,13,0
 INV-00239,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-004,Oxycodone 5mg,0.0,tablet,True,16.0,2,1
-INV-00240,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-008,Meperidine 50mg/mL,0.0,IV,True,12.5,5,0
+INV-00240,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-008,Meperidine 50mg/mL,0.0,IV,True,,5,0
 INV-00241,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-013,Testosterone 200mg/mL,1.0,Vial,True,5.0,0,1
 INV-00242,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-010,Codeine 30mg,1.0,TABLET,True,15.0,9,0
 INV-00243,DEV-009,NICU_A-Station-2,NICU-A,Drawer-6,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,20.0,11,0
@@ -290,8 +290,8 @@ INV-00288,DEV-011,NICU_B-Station-2,NICU-B,Drawer-3,MED-001,Morphine 2 mg/mL,0.0,
 INV-00289,DEV-011,NICU_B-Station-2,NICU-B,Drawer-4,MED-031,Lactated Ringers 1L,4.0,Bag,False,8.0,7,0
 INV-00290,DEV-011,NICU_B-Station-2,NICU-B,Drawer-4,MED-029,Heparin 5000 units/mL,3.0,Vial,False,16.0,13,0
 INV-00291,DEV-011,NICU_B-Station-2,NICU-B,Drawer-4,MED-007,Oxycodone 10mg,0.0,Tablet,True,17.0,12,0
-INV-00292,DEV-011,NICU_B-Station-2,NICU-B,Drawer-4,MED-028,Pantoprazole 40mg,3.0,IV,False,12.0,9,0
-INV-00293,DEV-011,NICU_B-Station-2,NICU-B,Drawer-5,MED-025,Metoprolol 25mg,3.0,Tablet,False,13.0,0,1
+INV-00292,DEV-011,NICU_B-Station-2,NICU-B,Drawer-4,MED-028,Pantoprazole 40mg,3.0,IV,False,,9,0
+INV-00293,DEV-011,NICU_B-Station-2,NICU-B,Drawer-5,MED-025,Metoprolol 25mg,3.0,Tablet,False,13.0,-3,1
 INV-00294,DEV-011,NICU_B-Station-2,NICU-B,Drawer-5,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,16.0,4,0
 INV-00295,DEV-011,NICU_B-Station-2,NICU-B,Drawer-5,MED-016,Diazepam 5mg,2.0,Tablet,True,14.0,2,1
 INV-00296,DEV-011,NICU_B-Station-2,NICU-B,Drawer-5,MED-013,Testosterone 200mg/mL,1.0,Vial,True,17.0,11,0
@@ -301,7 +301,7 @@ INV-00299,DEV-011,NICU_B-Station-2,NICU-B,Drawer-6,MED-009,Hydrocodone 5mg,1.0,T
 INV-00300,DEV-011,NICU_B-Station-2,NICU-B,Drawer-6,MED-006,Methadone 10mg,0.0,Tablet,True,20.0,7,0
 INV-00301,DEV-011,NICU_B-Station-2,NICU-B,Drawer-6,MED-038,Norepinephrine 4mg/250mL,4.0,Bag,False,8.0,5,0
 INV-00302,DEV-011,NICU_B-Station-2,NICU-B,Drawer-6,MED-005,Hydromorphone 2mg,0.0,IV,True,8.0,1,1
-INV-00303,DEV-011,NICU_B-Station-2,NICU-B,Drawer-7,MED-003,fentanyl 50mcg/mL,0.0,IV,True,9.0,0,1
+INV-00303,DEV-011,NICU_B-Station-2,NICU-B,Drawer-7,MED-003,fentanyl 50mcg/mL,0.0,IV,True,9.0,-3,1
 INV-00304,DEV-011,NICU_B-Station-2,NICU-B,Drawer-7,MED-007,Oxycodone 10mg,0.0,Tablet,True,6.0,1,1
 INV-00305,DEV-011,NICU_B-Station-2,NICU-B,Drawer-7,MED-005,Hydromorphone 2mg,0.0,IV,True,11.0,10,0
 INV-00306,DEV-011,NICU_B-Station-2,NICU-B,Drawer-7,MED-026,Amoxicillin 500mg,3.0,capsule,False,19.0,10,0
@@ -364,10 +364,10 @@ INV-00362,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-6,MED-025,Metoprolol 25m
 INV-00363,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-6,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,16.0,12,0
 INV-00364,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-6,MED-031,Lactated Ringers 1L,4.0,Bag,False,7.0,7,0
 INV-00365,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-7,MED-020,Phenobarbital 30mg,2.0,Tablet,True,6.0,0,1
-INV-00366,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-7,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,16.0,0,1
+INV-00366,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-7,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,16.0,-3,1
 INV-00367,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-7,MED-028,Pantoprazole 40mg,3.0,IV,False,10.0,4,0
 INV-00368,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-012,Buprenorphine 8mg,1.0,Tablet,True,16.0,14,0
-INV-00369,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,12.0,0,1
+INV-00369,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,12.0,-1,1
 INV-00370,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-029,Heparin 5000 units/mL,3.0,Vial,False,11.0,0,1
 INV-00371,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,9.0,5,0
 INV-00372,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-1,MED-032,D5W 250mL,4.0,Bag,False,7.0,6,0
@@ -463,17 +463,17 @@ INV-00461,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-3,MED-011,Ketamine 500mg
 INV-00462,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-3,MED-007,Oxycodone 10mg,0.0,Tablet,True,8.0,0,1
 INV-00463,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-033,Potassium Chloride 20mEq,4.0,IV,False,16.0,2,1
 INV-00464,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-029,Heparin 5000 units/mL,3.0,Vial,False,11.0,0,1
-INV-00465,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-032,D5W 250mL,4.0,Bag,False,15.0,0,1
+INV-00465,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-032,D5W 250mL,4.0,Bag,False,15.0,-1,1
 INV-00466,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-001,Morphine 2 mg/mL,0.0,IV,True,5.0,1,1
 INV-00467,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-4,MED-019,Tramadol 50mg,2.0,Tablet,True,17.0,16,0
 INV-00468,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-5,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,16.0,1,1
 INV-00469,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-5,MED-003,fentanyl 50mcg/mL,0.0,IV,True,15.0,12,0
 INV-00470,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-5,MED-014,Lorazepam 2mg/mL,2.0,IV,True,17.0,1,1
-INV-00471,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-5,MED-020,Phenobarbital 30mg,2.0,Tablet,True,6.0,0,1
+INV-00471,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-5,MED-020,Phenobarbital 30mg,2.0,Tablet,True,6.0,-3,1
 INV-00472,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-6,MED-018,Zolpidem 10mg,2.0,Tablet,True,16.0,9,0
 INV-00473,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-6,MED-027,Azithromycin 250mg,3.0,Tablet,False,9.0,3,0
 INV-00474,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-6,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,8.0,0,1
-INV-00475,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-7,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,12.0,1,1
+INV-00475,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-7,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,,1,0
 INV-00476,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-7,MED-009,Hydrocodone 5mg,1.0,Tablet,True,15.0,3,1
 INV-00477,DEV-017,ER2-Station-3,Emergency Room 2,Drawer-7,MED-029,Heparin 5000 units/mL,3.0,Vial,False,13.0,6,0
 INV-00478,DEV-018,PACU-Station-1,PACU,Drawer-1,MED-020,Phenobarbital 30mg,2.0,Tablet,True,12.0,8,0
@@ -484,7 +484,7 @@ INV-00482,DEV-018,PACU-Station-1,PACU,Drawer-1,MED-007,Oxycodone 10mg,0.0,Tablet
 INV-00483,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-027,Azithromycin 250mg,3.0,Tablet,False,7.0,7,0
 INV-00484,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-015,Midazolam  5mg/mL,2.0,IV,True,17.0,0,1
 INV-00485,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-001,Morphine 2 mg/mL,0.0,IV,True,14.0,10,0
-INV-00486,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-016,Diazepam 5mg,2.0,Tablet,True,13.0,5,0
+INV-00486,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-016,Diazepam 5mg,2.0,Tablet,True,,5,0
 INV-00487,DEV-018,PACU-Station-1,PACU,Drawer-2,MED-035,Vancomycin 1g,4.0,IV,False,5.0,2,0
 INV-00488,DEV-018,PACU-Station-1,PACU,Drawer-3,MED-007,Oxycodone 10mg,0.0,Tablet,True,19.0,3,1
 INV-00489,DEV-018,PACU-Station-1,PACU,Drawer-3,MED-004,Oxycodone 5mg,0.0,tablet,True,13.0,8,0
@@ -581,7 +581,7 @@ INV-00579,DEV-021,PHR_A-Main,Pharmacy A,Drawer-4,MED-012,Buprenorphine 8mg,1.0,T
 INV-00580,DEV-021,PHR_A-Main,Pharmacy A,Drawer-4,MED-047,Prednisone 10mg,5.0,Tablet,False,10.0,4,0
 INV-00581,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-018,Zolpidem 10mg,2.0,Tablet,True,13.0,3,1
 INV-00582,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-010,Codeine 30mg,1.0,TABLET,True,16.0,0,1
-INV-00583,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-043,Metformin 500mg,-1.0,Tablet,False,14.0,7,0
+INV-00583,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-043,Metformin 500mg,,Tablet,False,14.0,7,0
 INV-00584,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-002,Morphine 4mg/mL,0.0,IV,True,7.0,1,1
 INV-00585,DEV-021,PHR_A-Main,Pharmacy A,Drawer-5,MED-011,Ketamine 500mg/10mL,1.0,vial,True,18.0,2,1
 INV-00586,DEV-021,PHR_A-Main,Pharmacy A,Drawer-6,MED-018,Zolpidem 10mg,2.0,Tablet,True,14.0,1,1
@@ -599,7 +599,7 @@ INV-00597,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-2,MED-039,Cefazolin 1g,4.0,IV,F
 INV-00598,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-2,MED-012,Buprenorphine 8mg,1.0,Tablet,True,17.0,2,1
 INV-00599,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-2,MED-050,Lisinopril 10mg,99.0,Tablet,False,7.0,1,1
 INV-00600,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-2,MED-011,Ketamine 500mg/10mL,1.0,vial,True,11.0,9,0
-INV-00601,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-3,MED-015,Midazolam  5mg/mL,2.0,IV,True,9.0,0,1
+INV-00601,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-3,MED-015,Midazolam  5mg/mL,2.0,IV,True,9.0,-2,1
 INV-00602,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-3,MED-020,Phenobarbital 30mg,2.0,Tablet,True,10.0,8,0
 INV-00603,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-3,MED-009,Hydrocodone 5mg,1.0,Tablet,True,13.0,6,0
 INV-00604,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-3,MED-018,Zolpidem 10mg,2.0,Tablet,True,14.0,10,0
@@ -621,7 +621,7 @@ INV-00619,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-034,Magnesium Sulfate 2g/
 INV-00620,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-013,Testosterone 200mg/mL,1.0,Vial,True,19.0,6,0
 INV-00621,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-001,Morphine 2 mg/mL,0.0,IV,True,14.0,11,0
 INV-00622,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-003,fentanyl 50mcg/mL,0.0,IV,True,17.0,12,0
-INV-00623,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-049,Multivitamin,-1.0,Tablet,False,18.0,13,0
+INV-00623,DEV-022,PHR_A-Backup,Pharmacy A,Drawer-7,MED-049,Multivitamin,,Tablet,False,18.0,13,0
 INV-00624,DEV-023,PHR_B-Main,Pharmacy B,Drawer-1,MED-040,Aspirin 81mg,5.0,Tablet,False,18.0,3,1
 INV-00625,DEV-023,PHR_B-Main,Pharmacy B,Drawer-1,MED-038,Norepinephrine 4mg/250mL,4.0,Bag,False,5.0,3,0
 INV-00626,DEV-023,PHR_B-Main,Pharmacy B,Drawer-1,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,7.0,4,0
@@ -647,8 +647,8 @@ INV-00645,DEV-023,PHR_B-Main,Pharmacy B,Drawer-5,MED-035,Vancomycin 1g,4.0,IV,Fa
 INV-00646,DEV-023,PHR_B-Main,Pharmacy B,Drawer-5,MED-021,Acetaminophen 500mg,3.0,Tablet,False,7.0,6,0
 INV-00647,DEV-023,PHR_B-Main,Pharmacy B,Drawer-5,MED-046,Warfarin 5mg,5.0,Tablet,False,12.0,8,0
 INV-00648,DEV-023,PHR_B-Main,Pharmacy B,Drawer-5,MED-032,D5W 250mL,4.0,Bag,False,12.0,12,0
-INV-00649,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-004,Oxycodone 5mg,0.0,tablet,True,16.0,0,1
-INV-00650,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-043,Metformin 500mg,-1.0,Tablet,False,5.0,0,1
+INV-00649,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-004,Oxycodone 5mg,0.0,tablet,True,16.0,-1,1
+INV-00650,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-043,Metformin 500mg,,Tablet,False,5.0,0,1
 INV-00651,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-025,Metoprolol 25mg,3.0,Tablet,False,9.0,7,0
 INV-00652,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-013,Testosterone 200mg/mL,1.0,Vial,True,17.0,10,0
 INV-00653,DEV-023,PHR_B-Main,Pharmacy B,Drawer-6,MED-021,Acetaminophen 500mg,3.0,Tablet,False,11.0,0,1
@@ -673,7 +673,7 @@ INV-00671,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-4,MED-024,Ondansetron 4mg,3.0,
 INV-00672,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-4,MED-040,Aspirin 81mg,5.0,Tablet,False,15.0,4,0
 INV-00673,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-4,MED-018,Zolpidem 10mg,2.0,Tablet,True,11.0,7,0
 INV-00674,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-5,MED-002,Morphine 4mg/mL,0.0,IV,True,17.0,14,0
-INV-00675,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-5,MED-049,Multivitamin,-1.0,Tablet,False,20.0,22,0
+INV-00675,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-5,MED-049,Multivitamin,,Tablet,False,20.0,22,0
 INV-00676,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-5,MED-016,Diazepam 5mg,2.0,Tablet,True,5.0,3,0
 INV-00677,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-5,MED-031,Lactated Ringers 1L,4.0,Bag,False,16.0,2,1
 INV-00678,DEV-024,MEDSURG-1A,Med/Surg Ward,Drawer-6,MED-023,Ibuprofen 400mg,3.0,Tablet,False,7.0,5,0
@@ -691,7 +691,7 @@ INV-00689,DEV-025,MEDSURG-1B,MedSurg,Drawer-1,MED-028,Pantoprazole 40mg,3.0,IV,F
 INV-00690,DEV-025,MEDSURG-1B,MedSurg,Drawer-1,MED-003,fentanyl 50mcg/mL,0.0,IV,True,14.0,9,0
 INV-00691,DEV-025,MEDSURG-1B,MedSurg,Drawer-1,MED-041,Atorvastatin 40mg,5.0,Tablet,False,16.0,13,0
 INV-00692,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-045,Furosemide 40mg,5.0,Tablet,False,17.0,10,0
-INV-00693,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-049,Multivitamin,-1.0,Tablet,False,7.0,1,1
+INV-00693,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-049,Multivitamin,,Tablet,False,7.0,1,1
 INV-00694,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-039,Cefazolin 1g,4.0,IV,False,15.0,6,0
 INV-00695,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-033,Potassium Chloride 20mEq,4.0,IV,False,19.0,8,0
 INV-00696,DEV-025,MEDSURG-1B,MedSurg,Drawer-2,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,7.0,4,0
@@ -742,7 +742,7 @@ INV-00740,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-6,MED-031,Lactated Ringers 1L,
 INV-00741,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-6,MED-013,Testosterone 200mg/mL,1.0,Vial,True,7.0,5,0
 INV-00742,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-6,MED-019,Tramadol 50mg,2.0,Tablet,True,16.0,11,0
 INV-00743,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-7,MED-005,Hydromorphone 2mg,0.0,IV,True,6.0,1,1
-INV-00744,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-7,MED-021,Acetaminophen 500mg,3.0,Tablet,False,14.0,0,1
+INV-00744,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-7,MED-021,Acetaminophen 500mg,3.0,Tablet,False,14.0,-2,1
 INV-00745,DEV-026,MEDSURG-2A,Med/Surg Ward,Drawer-7,MED-015,Midazolam  5mg/mL,2.0,IV,True,7.0,1,1
 INV-00746,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-1,MED-048,Doxycycline 100mg,5.0,Capsule,False,14.0,10,0
 INV-00747,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-1,MED-027,Azithromycin 250mg,3.0,Tablet,False,15.0,14,0
@@ -761,13 +761,13 @@ INV-00759,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-3,MED-009,Hydrocodone 5mg,1.0,
 INV-00760,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-3,MED-011,Ketamine 500mg/10mL,1.0,vial,True,20.0,11,0
 INV-00761,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-4,MED-011,Ketamine 500mg/10mL,1.0,vial,True,17.0,19,0
 INV-00762,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-4,MED-042,Omeprazole 20mg,5.0,Capsule,False,13.0,7,0
-INV-00763,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-4,MED-025,Metoprolol 25mg,3.0,Tablet,False,7.0,0,1
+INV-00763,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-4,MED-025,Metoprolol 25mg,3.0,Tablet,False,7.0,-3,1
 INV-00764,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-4,MED-040,Aspirin 81mg,5.0,Tablet,False,12.0,2,1
 INV-00765,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-041,Atorvastatin 40mg,5.0,Tablet,False,9.0,8,0
 INV-00766,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-023,Ibuprofen 400mg,3.0,Tablet,False,6.0,5,0
-INV-00767,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-032,D5W 250mL,4.0,Bag,False,12.0,0,1
+INV-00767,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-032,D5W 250mL,4.0,Bag,False,,0,0
 INV-00768,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-009,Hydrocodone 5mg,1.0,Tablet,True,19.0,8,0
-INV-00769,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-049,Multivitamin,-1.0,Tablet,False,20.0,4,1
+INV-00769,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-5,MED-049,Multivitamin,,Tablet,False,20.0,4,1
 INV-00770,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-6,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,9.0,9,0
 INV-00771,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-6,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,14.0,5,0
 INV-00772,DEV-027,MEDSURG-2B,Med/Surg Ward,Drawer-6,MED-008,Meperidine 50mg/mL,0.0,IV,True,6.0,2,0
@@ -791,22 +791,22 @@ INV-00789,DEV-028,ONCO-Station-1,Oncology,Drawer-3,MED-038,Norepinephrine 4mg/25
 INV-00790,DEV-028,ONCO-Station-1,Oncology,Drawer-4,MED-014,Lorazepam 2mg/mL,2.0,IV,True,13.0,13,0
 INV-00791,DEV-028,ONCO-Station-1,Oncology,Drawer-4,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,15.0,7,0
 INV-00792,DEV-028,ONCO-Station-1,Oncology,Drawer-4,MED-008,Meperidine 50mg/mL,0.0,IV,True,14.0,4,0
-INV-00793,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-049,Multivitamin,-1.0,Tablet,False,6.0,2,0
+INV-00793,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-049,Multivitamin,,Tablet,False,6.0,2,0
 INV-00794,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-008,Meperidine 50mg/mL,0.0,IV,True,19.0,4,1
 INV-00795,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,16.0,2,1
 INV-00796,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,18.0,15,0
 INV-00797,DEV-028,ONCO-Station-1,Oncology,Drawer-5,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,6.0,6,0
 INV-00798,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-015,Midazolam  5mg/mL,2.0,IV,True,20.0,0,1
 INV-00799,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-009,Hydrocodone 5mg,1.0,Tablet,True,13.0,13,0
-INV-00800,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-043,Metformin 500mg,-1.0,Tablet,False,17.0,16,0
+INV-00800,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-043,Metformin 500mg,,Tablet,False,17.0,16,0
 INV-00801,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-047,Prednisone 10mg,5.0,Tablet,False,18.0,10,0
 INV-00802,DEV-028,ONCO-Station-1,Oncology,Drawer-6,MED-026,Amoxicillin 500mg,3.0,capsule,False,9.0,9,0
 INV-00803,DEV-028,ONCO-Station-1,Oncology,Drawer-7,MED-050,Lisinopril 10mg,99.0,Tablet,False,10.0,8,0
-INV-00804,DEV-028,ONCO-Station-1,Oncology,Drawer-7,MED-043,Metformin 500mg,-1.0,Tablet,False,5.0,0,1
+INV-00804,DEV-028,ONCO-Station-1,Oncology,Drawer-7,MED-043,Metformin 500mg,,Tablet,False,5.0,0,1
 INV-00805,DEV-028,ONCO-Station-1,Oncology,Drawer-7,MED-035,Vancomycin 1g,4.0,IV,False,9.0,3,0
 INV-00806,DEV-028,ONCO-Station-1,Oncology,Drawer-7,MED-012,Buprenorphine 8mg,1.0,Tablet,True,6.0,3,0
 INV-00807,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,18.0,15,0
-INV-00808,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-028,Pantoprazole 40mg,3.0,IV,False,20.0,0,1
+INV-00808,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-028,Pantoprazole 40mg,3.0,IV,False,20.0,-2,1
 INV-00809,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-035,Vancomycin 1g,4.0,IV,False,13.0,5,0
 INV-00810,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-047,Prednisone 10mg,5.0,Tablet,False,12.0,7,0
 INV-00811,DEV-029,ONCO-Station-2,Oncology,Drawer-1,MED-020,Phenobarbital 30mg,2.0,Tablet,True,13.0,9,0
@@ -849,21 +849,21 @@ INV-00847,DEV-030,CARD-Station-1,Cardiology,Drawer-3,MED-010,Codeine 30mg,1.0,TA
 INV-00848,DEV-030,CARD-Station-1,Cardiology,Drawer-4,MED-021,Acetaminophen 500mg,3.0,Tablet,False,11.0,8,0
 INV-00849,DEV-030,CARD-Station-1,Cardiology,Drawer-4,MED-047,Prednisone 10mg,5.0,Tablet,False,5.0,5,0
 INV-00850,DEV-030,CARD-Station-1,Cardiology,Drawer-4,MED-042,Omeprazole 20mg,5.0,Capsule,False,15.0,10,0
-INV-00851,DEV-030,CARD-Station-1,Cardiology,Drawer-4,MED-043,Metformin 500mg,-1.0,Tablet,False,7.0,2,0
+INV-00851,DEV-030,CARD-Station-1,Cardiology,Drawer-4,MED-043,Metformin 500mg,,Tablet,False,7.0,2,0
 INV-00852,DEV-030,CARD-Station-1,Cardiology,Drawer-5,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,17.0,15,0
 INV-00853,DEV-030,CARD-Station-1,Cardiology,Drawer-5,MED-014,Lorazepam 2mg/mL,2.0,IV,True,13.0,4,0
 INV-00854,DEV-030,CARD-Station-1,Cardiology,Drawer-5,MED-039,Cefazolin 1g,4.0,IV,False,5.0,3,0
 INV-00855,DEV-030,CARD-Station-1,Cardiology,Drawer-5,MED-024,Ondansetron 4mg,3.0,IV,False,5.0,3,0
-INV-00856,DEV-030,CARD-Station-1,Cardiology,Drawer-6,MED-043,Metformin 500mg,-1.0,Tablet,False,8.0,8,0
+INV-00856,DEV-030,CARD-Station-1,Cardiology,Drawer-6,MED-043,Metformin 500mg,,Tablet,False,8.0,8,0
 INV-00857,DEV-030,CARD-Station-1,Cardiology,Drawer-6,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,20.0,11,0
 INV-00858,DEV-030,CARD-Station-1,Cardiology,Drawer-6,MED-045,Furosemide 40mg,5.0,Tablet,False,9.0,9,0
 INV-00859,DEV-030,CARD-Station-1,Cardiology,Drawer-7,MED-020,Phenobarbital 30mg,2.0,Tablet,True,10.0,5,0
 INV-00860,DEV-030,CARD-Station-1,Cardiology,Drawer-7,MED-007,Oxycodone 10mg,0.0,Tablet,True,8.0,6,0
 INV-00861,DEV-030,CARD-Station-1,Cardiology,Drawer-7,MED-039,Cefazolin 1g,4.0,IV,False,10.0,8,0
 INV-00862,DEV-030,CARD-Station-1,Cardiology,Drawer-7,MED-050,Lisinopril 10mg,99.0,Tablet,False,12.0,8,0
-INV-00863,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-043,Metformin 500mg,-1.0,Tablet,False,19.0,14,0
+INV-00863,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-043,Metformin 500mg,,Tablet,False,19.0,14,0
 INV-00864,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-037,Insulin Regular 100 units/mL,4.0,Vial,False,17.0,10,0
-INV-00865,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-031,Lactated Ringers 1L,4.0,Bag,False,6.0,0,1
+INV-00865,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-031,Lactated Ringers 1L,4.0,Bag,False,6.0,-2,1
 INV-00866,DEV-031,CARD-Station-2,Cardiology,Drawer-1,MED-018,Zolpidem 10mg,2.0,Tablet,True,14.0,11,0
 INV-00867,DEV-031,CARD-Station-2,Cardiology,Drawer-2,MED-046,Warfarin 5mg,5.0,Tablet,False,18.0,17,0
 INV-00868,DEV-031,CARD-Station-2,Cardiology,Drawer-2,MED-014,Lorazepam 2mg/mL,2.0,IV,True,20.0,3,1
@@ -873,10 +873,10 @@ INV-00871,DEV-031,CARD-Station-2,Cardiology,Drawer-2,MED-015,Midazolam  5mg/mL,2
 INV-00872,DEV-031,CARD-Station-2,Cardiology,Drawer-3,MED-032,D5W 250mL,4.0,Bag,False,12.0,4,0
 INV-00873,DEV-031,CARD-Station-2,Cardiology,Drawer-3,MED-026,Amoxicillin 500mg,3.0,capsule,False,16.0,6,0
 INV-00874,DEV-031,CARD-Station-2,Cardiology,Drawer-3,MED-045,Furosemide 40mg,5.0,Tablet,False,19.0,14,0
-INV-00875,DEV-031,CARD-Station-2,Cardiology,Drawer-4,MED-043,Metformin 500mg,-1.0,Tablet,False,8.0,5,0
+INV-00875,DEV-031,CARD-Station-2,Cardiology,Drawer-4,MED-043,Metformin 500mg,,Tablet,False,8.0,5,0
 INV-00876,DEV-031,CARD-Station-2,Cardiology,Drawer-4,MED-004,Oxycodone 5mg,0.0,tablet,True,19.0,14,0
 INV-00877,DEV-031,CARD-Station-2,Cardiology,Drawer-4,MED-008,Meperidine 50mg/mL,0.0,IV,True,14.0,9,0
-INV-00878,DEV-031,CARD-Station-2,Cardiology,Drawer-5,MED-043,Metformin 500mg,-1.0,Tablet,False,20.0,4,1
+INV-00878,DEV-031,CARD-Station-2,Cardiology,Drawer-5,MED-043,Metformin 500mg,,Tablet,False,20.0,4,1
 INV-00879,DEV-031,CARD-Station-2,Cardiology,Drawer-5,MED-005,Hydromorphone 2mg,0.0,IV,True,16.0,14,0
 INV-00880,DEV-031,CARD-Station-2,Cardiology,Drawer-5,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,15.0,12,0
 INV-00881,DEV-031,CARD-Station-2,Cardiology,Drawer-6,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,20.0,9,0
@@ -888,7 +888,7 @@ INV-00886,DEV-031,CARD-Station-2,Cardiology,Drawer-7,MED-023,Ibuprofen 400mg,3.0
 INV-00887,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-007,Oxycodone 10mg,0.0,Tablet,True,13.0,10,0
 INV-00888,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-027,Azithromycin 250mg,3.0,Tablet,False,11.0,6,0
 INV-00889,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-026,Amoxicillin 500mg,3.0,capsule,False,11.0,11,0
-INV-00890,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-003,fentanyl 50mcg/mL,0.0,IV,True,14.0,0,1
+INV-00890,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-003,fentanyl 50mcg/mL,0.0,IV,True,14.0,-1,1
 INV-00891,DEV-032,OR-Station-1,Operating Room,Drawer-1,MED-010,Codeine 30mg,1.0,TABLET,True,19.0,3,1
 INV-00892,DEV-032,OR-Station-1,Operating Room,Drawer-2,MED-029,Heparin 5000 units/mL,3.0,Vial,False,20.0,7,0
 INV-00893,DEV-032,OR-Station-1,Operating Room,Drawer-2,MED-007,Oxycodone 10mg,0.0,Tablet,True,8.0,8,0
@@ -917,7 +917,7 @@ INV-00915,DEV-032,OR-Station-1,Operating Room,Drawer-7,MED-011,Ketamine 500mg/10
 INV-00916,DEV-032,OR-Station-1,Operating Room,Drawer-7,MED-032,D5W 250mL,4.0,Bag,False,7.0,4,0
 INV-00917,DEV-032,OR-Station-1,Operating Room,Drawer-7,MED-015,Midazolam  5mg/mL,2.0,IV,True,5.0,1,1
 INV-00918,DEV-033,OR-Station-2,OR,Drawer-1,MED-001,Morphine 2 mg/mL,0.0,IV,True,12.0,12,0
-INV-00919,DEV-033,OR-Station-2,OR,Drawer-1,MED-043,Metformin 500mg,-1.0,Tablet,False,18.0,11,0
+INV-00919,DEV-033,OR-Station-2,OR,Drawer-1,MED-043,Metformin 500mg,,Tablet,False,18.0,11,0
 INV-00920,DEV-033,OR-Station-2,OR,Drawer-1,MED-004,Oxycodone 5mg,0.0,tablet,True,9.0,6,0
 INV-00921,DEV-033,OR-Station-2,OR,Drawer-1,MED-030,Normal Saline 0.9% 1L,4.0,Bag,False,10.0,5,0
 INV-00922,DEV-033,OR-Station-2,OR,Drawer-1,MED-044,Amlodipine 5mg,5.0,Tablet,False,18.0,7,0
@@ -942,7 +942,7 @@ INV-00940,DEV-033,OR-Station-2,OR,Drawer-7,MED-032,D5W 250mL,4.0,Bag,False,9.0,1
 INV-00941,DEV-033,OR-Station-2,OR,Drawer-7,MED-006,Methadone 10mg,0.0,Tablet,True,13.0,10,0
 INV-00942,DEV-033,OR-Station-2,OR,Drawer-7,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,11.0,3,0
 INV-00943,DEV-033,OR-Station-2,OR,Drawer-7,MED-025,Metoprolol 25mg,3.0,Tablet,False,6.0,0,1
-INV-00944,DEV-034,OR-Station-3,Operating Room,Drawer-1,MED-011,Ketamine 500mg/10mL,1.0,vial,True,5.0,0,1
+INV-00944,DEV-034,OR-Station-3,Operating Room,Drawer-1,MED-011,Ketamine 500mg/10mL,1.0,vial,True,5.0,-2,1
 INV-00945,DEV-034,OR-Station-3,Operating Room,Drawer-1,MED-035,Vancomycin 1g,4.0,IV,False,17.0,9,0
 INV-00946,DEV-034,OR-Station-3,Operating Room,Drawer-1,MED-014,Lorazepam 2mg/mL,2.0,IV,True,20.0,1,1
 INV-00947,DEV-034,OR-Station-3,Operating Room,Drawer-1,MED-025,Metoprolol 25mg,3.0,Tablet,False,5.0,3,0
@@ -950,7 +950,7 @@ INV-00948,DEV-034,OR-Station-3,Operating Room,Drawer-2,MED-028,Pantoprazole 40mg
 INV-00949,DEV-034,OR-Station-3,Operating Room,Drawer-2,MED-007,Oxycodone 10mg,0.0,Tablet,True,16.0,0,1
 INV-00950,DEV-034,OR-Station-3,Operating Room,Drawer-2,MED-035,Vancomycin 1g,4.0,IV,False,20.0,2,1
 INV-00951,DEV-034,OR-Station-3,Operating Room,Drawer-2,MED-016,Diazepam 5mg,2.0,Tablet,True,10.0,1,1
-INV-00952,DEV-034,OR-Station-3,Operating Room,Drawer-3,MED-019,Tramadol 50mg,2.0,Tablet,True,13.0,17,0
+INV-00952,DEV-034,OR-Station-3,Operating Room,Drawer-3,MED-019,Tramadol 50mg,2.0,Tablet,True,,17,0
 INV-00953,DEV-034,OR-Station-3,Operating Room,Drawer-3,MED-035,Vancomycin 1g,4.0,IV,False,14.0,1,1
 INV-00954,DEV-034,OR-Station-3,Operating Room,Drawer-3,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,12.0,0,1
 INV-00955,DEV-034,OR-Station-3,Operating Room,Drawer-4,MED-011,Ketamine 500mg/10mL,1.0,vial,True,13.0,9,0
@@ -975,12 +975,12 @@ INV-00973,DEV-035,LD-Station-1,Labor & Delivery,Drawer-1,MED-001,Morphine 2 mg/m
 INV-00974,DEV-035,LD-Station-1,Labor & Delivery,Drawer-2,MED-016,Diazepam 5mg,2.0,Tablet,True,14.0,5,0
 INV-00975,DEV-035,LD-Station-1,Labor & Delivery,Drawer-2,MED-021,Acetaminophen 500mg,3.0,Tablet,False,17.0,6,0
 INV-00976,DEV-035,LD-Station-1,Labor & Delivery,Drawer-2,MED-006,Methadone 10mg,0.0,Tablet,True,16.0,18,0
-INV-00977,DEV-035,LD-Station-1,Labor & Delivery,Drawer-2,MED-031,Lactated Ringers 1L,4.0,Bag,False,12.0,4,0
+INV-00977,DEV-035,LD-Station-1,Labor & Delivery,Drawer-2,MED-031,Lactated Ringers 1L,4.0,Bag,False,,4,0
 INV-00978,DEV-035,LD-Station-1,Labor & Delivery,Drawer-3,MED-010,Codeine 30mg,1.0,TABLET,True,11.0,1,1
 INV-00979,DEV-035,LD-Station-1,Labor & Delivery,Drawer-3,MED-035,Vancomycin 1g,4.0,IV,False,16.0,16,0
 INV-00980,DEV-035,LD-Station-1,Labor & Delivery,Drawer-3,MED-016,Diazepam 5mg,2.0,Tablet,True,20.0,18,0
 INV-00981,DEV-035,LD-Station-1,Labor & Delivery,Drawer-4,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,19.0,3,1
-INV-00982,DEV-035,LD-Station-1,Labor & Delivery,Drawer-4,MED-049,Multivitamin,-1.0,Tablet,False,20.0,2,1
+INV-00982,DEV-035,LD-Station-1,Labor & Delivery,Drawer-4,MED-049,Multivitamin,,Tablet,False,20.0,2,1
 INV-00983,DEV-035,LD-Station-1,Labor & Delivery,Drawer-4,MED-039,Cefazolin 1g,4.0,IV,False,5.0,9,0
 INV-00984,DEV-035,LD-Station-1,Labor & Delivery,Drawer-5,MED-029,Heparin 5000 units/mL,3.0,Vial,False,9.0,4,0
 INV-00985,DEV-035,LD-Station-1,Labor & Delivery,Drawer-5,MED-004,Oxycodone 5mg,0.0,tablet,True,17.0,0,1
@@ -988,16 +988,16 @@ INV-00986,DEV-035,LD-Station-1,Labor & Delivery,Drawer-5,MED-037,Insulin Regular
 INV-00987,DEV-035,LD-Station-1,Labor & Delivery,Drawer-5,MED-020,Phenobarbital 30mg,2.0,Tablet,True,12.0,12,0
 INV-00988,DEV-035,LD-Station-1,Labor & Delivery,Drawer-5,MED-005,Hydromorphone 2mg,0.0,IV,True,15.0,6,0
 INV-00989,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,19.0,12,0
-INV-00990,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,18.0,0,1
+INV-00990,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,18.0,-2,1
 INV-00991,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-008,Meperidine 50mg/mL,0.0,IV,True,12.0,4,0
-INV-00992,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-049,Multivitamin,-1.0,Tablet,False,19.0,7,0
-INV-00993,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-049,Multivitamin,-1.0,Tablet,False,12.0,2,1
+INV-00992,DEV-035,LD-Station-1,Labor & Delivery,Drawer-6,MED-049,Multivitamin,,Tablet,False,19.0,7,0
+INV-00993,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-049,Multivitamin,,Tablet,False,12.0,2,1
 INV-00994,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-031,Lactated Ringers 1L,4.0,Bag,False,18.0,14,0
 INV-00995,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-016,Diazepam 5mg,2.0,Tablet,True,20.0,8,0
 INV-00996,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-003,fentanyl 50mcg/mL,0.0,IV,True,15.0,3,1
 INV-00997,DEV-035,LD-Station-1,Labor & Delivery,Drawer-7,MED-015,Midazolam  5mg/mL,2.0,IV,True,14.0,8,0
 INV-00998,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-003,fentanyl 50mcg/mL,0.0,IV,True,11.0,1,1
-INV-00999,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-038,Norepinephrine 4mg/250mL,4.0,Bag,False,16.0,0,1
+INV-00999,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-038,Norepinephrine 4mg/250mL,4.0,Bag,False,16.0,-2,1
 INV-01000,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-020,Phenobarbital 30mg,2.0,Tablet,True,14.0,2,1
 INV-01001,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-045,Furosemide 40mg,5.0,Tablet,False,19.0,19,0
 INV-01002,DEV-036,LD-Station-2,Labor & Delivery,Drawer-1,MED-029,Heparin 5000 units/mL,3.0,Vial,False,16.0,9,0
@@ -1020,7 +1020,7 @@ INV-01018,DEV-036,LD-Station-2,Labor & Delivery,Drawer-5,MED-030,Normal Saline 0
 INV-01019,DEV-036,LD-Station-2,Labor & Delivery,Drawer-5,MED-003,fentanyl 50mcg/mL,0.0,IV,True,19.0,2,1
 INV-01020,DEV-036,LD-Station-2,Labor & Delivery,Drawer-6,MED-004,Oxycodone 5mg,0.0,tablet,True,12.0,5,0
 INV-01021,DEV-036,LD-Station-2,Labor & Delivery,Drawer-6,MED-029,Heparin 5000 units/mL,3.0,Vial,False,18.0,5,0
-INV-01022,DEV-036,LD-Station-2,Labor & Delivery,Drawer-6,MED-049,Multivitamin,-1.0,Tablet,False,6.0,3,0
+INV-01022,DEV-036,LD-Station-2,Labor & Delivery,Drawer-6,MED-049,Multivitamin,,Tablet,False,6.0,3,0
 INV-01023,DEV-036,LD-Station-2,Labor & Delivery,Drawer-7,MED-011,Ketamine 500mg/10mL,1.0,vial,True,12.0,0,1
 INV-01024,DEV-036,LD-Station-2,Labor & Delivery,Drawer-7,MED-019,Tramadol 50mg,2.0,Tablet,True,11.0,9,0
 INV-01025,DEV-036,LD-Station-2,Labor & Delivery,Drawer-7,MED-013,Testosterone 200mg/mL,1.0,Vial,True,12.0,4,0
@@ -1035,7 +1035,7 @@ INV-01033,DEV-037,PEDS-Station-1,Pediatrics,Drawer-2,MED-031,Lactated Ringers 1L
 INV-01034,DEV-037,PEDS-Station-1,Pediatrics,Drawer-2,MED-046,Warfarin 5mg,5.0,Tablet,False,15.0,9,0
 INV-01035,DEV-037,PEDS-Station-1,Pediatrics,Drawer-2,MED-004,Oxycodone 5mg,0.0,tablet,True,15.0,7,0
 INV-01036,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-041,Atorvastatin 40mg,5.0,Tablet,False,10.0,5,0
-INV-01037,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-049,Multivitamin,-1.0,Tablet,False,14.0,14,0
+INV-01037,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-049,Multivitamin,,Tablet,False,14.0,14,0
 INV-01038,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-034,Magnesium Sulfate 2g/50mL,4.0,Bag,False,5.0,2,0
 INV-01039,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-001,Morphine 2 mg/mL,0.0,IV,True,19.0,13,0
 INV-01040,DEV-037,PEDS-Station-1,Pediatrics,Drawer-3,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,14.0,2,1
@@ -1051,9 +1051,9 @@ INV-01049,DEV-037,PEDS-Station-1,Pediatrics,Drawer-6,MED-031,Lactated Ringers 1L
 INV-01050,DEV-037,PEDS-Station-1,Pediatrics,Drawer-6,MED-011,Ketamine 500mg/10mL,1.0,vial,True,8.0,7,0
 INV-01051,DEV-037,PEDS-Station-1,Pediatrics,Drawer-6,MED-032,D5W 250mL,4.0,Bag,False,17.0,9,0
 INV-01052,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-001,Morphine 2 mg/mL,0.0,IV,True,10.0,8,0
-INV-01053,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-016,Diazepam 5mg,2.0,Tablet,True,5.0,0,1
+INV-01053,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-016,Diazepam 5mg,2.0,Tablet,True,5.0,-2,1
 INV-01054,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-013,Testosterone 200mg/mL,1.0,Vial,True,7.0,0,1
-INV-01055,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-049,Multivitamin,-1.0,Tablet,False,20.0,9,0
+INV-01055,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-049,Multivitamin,,Tablet,False,20.0,9,0
 INV-01056,DEV-038,PEDS-Station-2,Pediatrics,Drawer-1,MED-010,Codeine 30mg,1.0,TABLET,True,10.0,10,0
 INV-01057,DEV-038,PEDS-Station-2,Pediatrics,Drawer-1,MED-002,Morphine 4mg/mL,0.0,IV,True,7.0,7,0
 INV-01058,DEV-038,PEDS-Station-2,Pediatrics,Drawer-1,MED-044,Amlodipine 5mg,5.0,Tablet,False,16.0,8,0
@@ -1079,7 +1079,7 @@ INV-01077,DEV-038,PEDS-Station-2,Pediatrics,Drawer-6,MED-037,Insulin Regular 100
 INV-01078,DEV-038,PEDS-Station-2,Pediatrics,Drawer-7,MED-008,Meperidine 50mg/mL,0.0,IV,True,16.0,4,0
 INV-01079,DEV-038,PEDS-Station-2,Pediatrics,Drawer-7,MED-036,Piperacillin-Tazobactam 3.375g,4.0,IV,False,9.0,9,0
 INV-01080,DEV-038,PEDS-Station-2,Pediatrics,Drawer-7,MED-010,Codeine 30mg,1.0,TABLET,True,5.0,2,0
-INV-01081,DEV-039,TELE-Station-1,Telemetry,Drawer-1,MED-049,Multivitamin,-1.0,Tablet,False,15.0,5,0
+INV-01081,DEV-039,TELE-Station-1,Telemetry,Drawer-1,MED-049,Multivitamin,,Tablet,False,15.0,5,0
 INV-01082,DEV-039,TELE-Station-1,Telemetry,Drawer-1,MED-031,Lactated Ringers 1L,4.0,Bag,False,8.0,5,0
 INV-01083,DEV-039,TELE-Station-1,Telemetry,Drawer-1,MED-038,Norepinephrine 4mg/250mL,4.0,Bag,False,16.0,10,0
 INV-01084,DEV-039,TELE-Station-1,Telemetry,Drawer-2,MED-028,Pantoprazole 40mg,3.0,IV,False,19.0,2,1
@@ -1109,7 +1109,7 @@ INV-01107,DEV-039,TELE-Station-1,Telemetry,Drawer-7,MED-031,Lactated Ringers 1L,
 INV-01108,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-015,Midazolam  5mg/mL,2.0,IV,True,13.0,13,0
 INV-01109,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-004,Oxycodone 5mg,0.0,tablet,True,6.0,0,1
 INV-01110,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-039,Cefazolin 1g,4.0,IV,False,9.0,7,0
-INV-01111,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-049,Multivitamin,-1.0,Tablet,False,8.0,7,0
+INV-01111,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-049,Multivitamin,,Tablet,False,8.0,7,0
 INV-01112,DEV-040,TELE-Station-1,Telemetry,Drawer-1,MED-006,Methadone 10mg,0.0,Tablet,True,10.0,6,0
 INV-01113,DEV-040,TELE-Station-1,Telemetry,Drawer-2,MED-017,Alprazolam 0.5mg,2.0,Tablet,True,18.0,18,0
 INV-01114,DEV-040,TELE-Station-1,Telemetry,Drawer-2,MED-032,D5W 250mL,4.0,Bag,False,5.0,0,1
@@ -1117,7 +1117,7 @@ INV-01115,DEV-040,TELE-Station-1,Telemetry,Drawer-2,MED-022,Acetaminophen 1000mg
 INV-01116,DEV-040,TELE-Station-1,Telemetry,Drawer-3,MED-014,Lorazepam 2mg/mL,2.0,IV,True,13.0,7,0
 INV-01117,DEV-040,TELE-Station-1,Telemetry,Drawer-3,MED-022,Acetaminophen 1000mg IV,3.0,IV,False,10.0,2,1
 INV-01118,DEV-040,TELE-Station-1,Telemetry,Drawer-3,MED-040,Aspirin 81mg,5.0,Tablet,False,12.0,12,0
-INV-01119,DEV-040,TELE-Station-1,Telemetry,Drawer-4,MED-049,Multivitamin,-1.0,Tablet,False,18.0,15,0
+INV-01119,DEV-040,TELE-Station-1,Telemetry,Drawer-4,MED-049,Multivitamin,,Tablet,False,18.0,15,0
 INV-01120,DEV-040,TELE-Station-1,Telemetry,Drawer-4,MED-021,Acetaminophen 500mg,3.0,Tablet,False,7.0,5,0
 INV-01121,DEV-040,TELE-Station-1,Telemetry,Drawer-4,MED-040,Aspirin 81mg,5.0,Tablet,False,5.0,1,1
 INV-01122,DEV-040,TELE-Station-1,Telemetry,Drawer-4,MED-027,Azithromycin 250mg,3.0,Tablet,False,10.0,4,0
@@ -1135,3 +1135,8 @@ INV-01133,DEV-040,TELE-Station-1,Telemetry,Drawer-7,MED-048,Doxycycline 100mg,5.
 INV-01134,DEV-040,TELE-Station-1,Telemetry,Drawer-7,MED-004,Oxycodone 5mg,0.0,tablet,True,12.0,10,0
 INV-01135,DEV-040,TELE-Station-1,Telemetry,Drawer-7,MED-028,Pantoprazole 40mg,3.0,IV,False,5.0,2,0
 INV-01136,DEV-040,TELE-Station-1,Telemetry,Drawer-7,MED-029,Heparin 5000 units/mL,3.0,Vial,False,11.0,11,0
+INV-00376,DEV-014,ER1-Station-3,Emergency Room 1,Drawer-3,MED-039,Cefazolin 1g,4.0,IV,False,5.0,3,0
+INV-00711,DEV-025,MEDSURG-1B,MedSurg,Drawer-6,MED-025,Metoprolol 25mg,3.0,Tablet,False,12.0,3,0
+INV-00358,DEV-013,ER1-Station-2,Emergency Room 1,Drawer-5,MED-021,Acetaminophen 500mg,3.0,Tablet,False,5.0,4,0
+INV-01052,DEV-037,PEDS-Station-1,Pediatrics,Drawer-7,MED-001,Morphine 2 mg/mL,0.0,IV,True,10.0,8,0
+INV-00961,DEV-034,OR-Station-3,Operating Room,Drawer-5,MED-032,D5W 250mL,4.0,Bag,False,8.0,7,0
