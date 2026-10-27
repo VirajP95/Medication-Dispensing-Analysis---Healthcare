@@ -237,17 +237,17 @@ print(df_inventory_clean['needs_restock'].value_counts())
 
 # Exporting  all clean dataframes into cleaned data folder
 
-df_transactions_cleaned = df_transactions_clean.to_csv('../data/cleaned/fact_transactions.csv', index=False)
+df_transactions_clean.to_csv('../data/cleaned/fact_transactions.csv', index=False)
 
-df_medications_cleaned = df_medications_clean.to_csv('../data/cleaned/dim_medications.csv', index=False)
+df_medications_clean.to_csv('../data/cleaned/dim_medications.csv', index=False)
 
-df_users_cleaned = df_users_clean.to_csv('../data/cleaned/dim_users.csv', index=False)
+df_users_clean.to_csv('../data/cleaned/dim_users.csv', index=False)
 
-df_patients_cleaned = df_patients_clean1.to_csv('../data/cleaned/dim_patients.csv', index=False)
+df_patients_clean1.to_csv('../data/cleaned/dim_patients.csv', index=False)
 
-df_inventory_cleaned = df_inventory_clean.to_csv('../data/cleaned/dim_inventory.csv', index=False)
+df_inventory_clean.to_csv('../data/cleaned/dim_inventory.csv', index=False)
 
-df_devices_cleaned = df_devices_clean.to_csv('../data/cleaned/dim_devices.csv', index= False)
+df_devices_clean.to_csv('../data/cleaned/dim_devices.csv', index= False)
 
 df_transactions['transaction_datetime'].astype
 
@@ -258,8 +258,10 @@ df_inventory.tail()
 df_inventory_clean['device_id'] = df_inventory_clean['device_id'].str.strip().str.upper()
 df_devices_clean['device_id'] = df_devices_clean['device_id'].str.strip().str.upper()
 
+df_devices_clean['department'].unique()
 
-
+df_devices_clean['department'] = df_devices_clean['department'].replace({'Med/Surg Ward': 'MedSurg',
+                                                                         'Operating Room': 'OR'})
 
 
 
