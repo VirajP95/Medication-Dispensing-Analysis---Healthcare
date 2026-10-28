@@ -13,9 +13,11 @@ This project is for the Director of Pharmacy or Pharmacy teams to understand Med
 ## Dashboard
 <img width="1268" height="712" alt="Transaction analysis page" src="https://github.com/user-attachments/assets/3d68209e-fe9e-4bce-9d10-55dee4b3e225" /> 
 
+
 First page in this report showcases Transaction visuals which gives a better understanding of Medication Dispensing across the hospital.
 
-<img width="1268" height="714" alt="Override and discrepancy analysis page" src="https://github.com/user-attachments/assets/be5c34ba-6015-4b7e-92ef-cc4bf52c0199" />
+<img width="1223" height="689" alt="image" src="https://github.com/user-attachments/assets/8a2793b3-e2b5-4a57-b9e7-ffadc4b4832c" />
+
 
 Second page highlights Override and Discrepancy analysis in addition to users who contributed to override transactions.
 
