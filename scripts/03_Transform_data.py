@@ -48,3 +48,6 @@ full_transactions.to_csv('../data/Engineered/full_transactions.csv', index=False
 full_transactions['department'].unique()
 
 
+
+
+
