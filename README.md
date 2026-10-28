@@ -6,9 +6,9 @@ An end-to-end data analysis project using **mock** Pyxis medication dispensing d
 This project is for the Director of Pharmacy or Pharmacy teams to understand Medication Dispensing across all devices. It answers business questions pertaining to number of medications that were dispensed, Override & Discrepancies that occurred during transactions and also includes Device and Inventory information which will help pharmacy staff to have a better understanding of transaction workflows across several devices supported by visual charts and in depth analysis.
 
 ## Business Questions
-1. Why does PACU, Pediatrics and Surgical ICU have the highest number of overrides?
-2. Why there was spike in Override transactions in the month of May?
-3. Why the "IV" medication type has the highest number of overrides? 
+1. Which medications are removed most frequently across all devices?
+2. Which transaction type (Remove/Waste/Override/Refill/Return) has the highest volume?
+3. Which medication type has the highest number of overrides? 
 
 ## Dashboard
 <img width="1268" height="712" alt="Transaction analysis page" src="https://github.com/user-attachments/assets/3d68209e-fe9e-4bce-9d10-55dee4b3e225" /> 
